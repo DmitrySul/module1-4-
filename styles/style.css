@@ -80,6 +80,7 @@ h3 {
 }
 
 .btn_services {
+  width: 255px;
   margin-top: 30px;
   background: #ad1818;
   border-radius: 5px;
@@ -87,6 +88,8 @@ h3 {
   padding: 20px 40px;
   color: #ffffff;
   cursor: pointer;
+  text-align: center;
+  letter-spacing: -0.03em;
 }
 
 .projects {
