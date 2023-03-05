@@ -1,13 +1,23 @@
 body {
   font-family: "Manrope", sans-serif;
   width: 100%;
+  background-color: #f5f5f5;
 }
 
 .container {
   margin: 0 auto;
   width: 1400px;
   background-color: #ffffff;
-  padding: 125px;
+}
+
+section {
+  padding: 150px 125px 0 125px;
+}
+
+.section-black {
+  margin-top: 150px;
+  background: #121212;
+  height: 1844px;
 }
 
 h1,
@@ -21,21 +31,35 @@ h1 {
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
+  color: #121212;
 }
 
-.pic1 {
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #121212;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}
+
+.interior {
+  position: relative;
   margin-top: 30px;
-  margin-bottom: 150px;
   height: 500px;
   width: 1150px;
-  background-image: url("../resources/pic1.png");
-  padding-left: 40px;
-  padding-top: 379px;
-  padding-right: 680px;
+  background-image: url("../resources/interior.png");
 }
 
-.pic1-text {
+.interior-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  right: 680px;
   width: 430;
   font-weight: 400;
   font-size: 20px;
@@ -44,16 +68,7 @@ h1 {
   color: #ffffff;
 }
 
-h2 {
-  margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.03em;
-  color: #121212;
-}
-
-.text2 {
+.about-us {
   margin-top: 30px;
   width: 1048px;
   height: 366px;
@@ -64,9 +79,8 @@ h2 {
   color: #121212;
 }
 
-.button1 {
+.btn_services {
   margin-top: 30px;
-  margin-bottom: 200px;
   background: #ad1818;
   border-radius: 5px;
   display: inline-block;
@@ -75,26 +89,24 @@ h2 {
   cursor: pointer;
 }
 
-.item {
+.projects {
+  margin-top: 30px;
+}
+
+.project {
   margin-bottom: 90px;
-  width: 1150px;
-  height: 548px;
 }
 
-h3 {
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 41px;
-  color: #ffffff;
+.project__image {
+  margin-bottom: 15px;
 }
 
-.item__title {
-  padding-top: 15px;
-  padding-bottom: 15px;
+.project__title {
+  margin-bottom: 15px;
   color: #121212;
 }
 
-.item__about {
+.project__detail {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -102,7 +114,7 @@ h3 {
   color: #ad1818;
 }
 
-.button2 {
+.btn_all_projects {
   display: block;
   width: 100%;
   height: 153px;
@@ -116,38 +128,27 @@ h3 {
   letter-spacing: -0.03em;
 }
 
-.button2:hover {
+.btn_all_projects:hover {
   background-color: #ad1818;
   color: #ffffff;
 }
 
-.container2 {
-  margin: 0 auto;
-  width: 1400px;
-  background-color: #ffffff;
-}
-
-.section {
-  width: 1400px;
-  height: 1844px;
-  background-color: #121212;
-  padding-top: 151px;
-  padding-left: 125px;
-}
-
-.container3 {
-  width: 66px;
-  height: 25px;
-  margin-bottom: 34px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
+.section-black h2 {
   color: #ffffff;
 }
 
-.item2__image {
-  margin-bottom: 15px;
+.services {
+  margin-top: 34px;
 }
-.container4 {
-  margin-bottom: 60px;
+
+.services .service {
+  margin-top: 60px;
+}
+
+.services :first-child {
+  margin-top: 0;
+}
+
+.service__image {
+  margin-bottom: 15px;
 }
